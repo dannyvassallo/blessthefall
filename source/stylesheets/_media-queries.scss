@@ -1,0 +1,59 @@
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        #video{
+            h1{
+                font-size: 15px;
+                line-height: 2px;
+            }
+            .cta{margin-top: -30px;}
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        #video{
+            h1{
+                font-size: 18px;
+                line-height: 10px;
+            }
+            .cta{
+                margin-top: -50px;      
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        #video{
+            h1{
+                font-size: 25px;
+                line-height: 15px;
+            }
+            .cta{
+                margin-top: -70px;      
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        #video{
+            h1{
+                font-size: 30px;
+                line-height: 15px;
+            }
+            .cta{
+                margin-top: -70px;      
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
