@@ -1,0 +1,81 @@
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        h1{
+            font-size: 10px;
+            line-height: 2px;
+        }        
+        #video{
+            .cta{
+                margin-top: -30px;
+                margin-bottom: 20px;
+            }
+        }
+        #preorder{
+            margin-top: 25px;
+        }
+        .esp-logo{
+            width: 25px;
+            margin-top: -5px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        h1{
+            font-size: 15px;
+            line-height: 2px;
+        }
+        #video{
+            .cta{
+                margin-top: -50px;      
+                margin-bottom: 25px;
+            }
+        }
+        .esp-logo{
+            width: 35px;
+            margin-top: -5px;
+        }        
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        h1{
+            font-size: 25px;
+            line-height: 15px;
+        }
+        #video{
+            .cta{
+                margin-top: -70px;      
+                margin-bottom: 25px;
+            }
+        }
+        .esp-logo{
+            width: 40px;
+            margin-top: -5px;
+        }        
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        h1{
+            font-size: 30px;
+            line-height: 15px;
+        }
+        #video{
+            .cta{
+                margin-top: -70px;      
+                margin-bottom: 25px;
+            }
+        }
+        .esp-logo{
+            width: 50px;
+            margin-top: -8px;
+        }            
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
