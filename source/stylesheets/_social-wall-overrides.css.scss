@@ -3,14 +3,14 @@
 }
 .stream li{
   background-color: rgba(0,0,0,0.3);
-  color: white;
+  color: $tan;
 }
 .section-intro{
-  background-color: black !important;
-  color: white !important;
+  background-color: $brown !important;
+  color: $tan !important;
 }
 .section-text{
-  color: white;
+  color: $tan;
 }
 
 @media (max-width: 1200px) {
