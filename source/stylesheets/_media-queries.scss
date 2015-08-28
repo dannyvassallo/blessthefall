@@ -3,11 +3,17 @@
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) {
         h1{
-            font-size: 15px;
+            font-size: 10px;
             line-height: 2px;
         }        
         #video{
-            .cta{margin-top: -30px;}
+            .cta{
+                margin-top: -30px;
+                margin-bottom: 20px;
+            }
+        }
+        #preorder{
+            margin-top: 25px;
         }
         .esp-logo{
             width: 25px;
@@ -18,8 +24,8 @@
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
         h1{
-            font-size: 18px;
-            line-height: 10px;
+            font-size: 15px;
+            line-height: 2px;
         }
         #video{
             .cta{
